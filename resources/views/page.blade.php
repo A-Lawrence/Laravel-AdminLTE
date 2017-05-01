@@ -110,6 +110,8 @@
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 @yield('content_header')
+                
+                {!! \Breadcrumbs::addCssClasses('breadcrumb')->setDivider("")->render() !!}
             </section>
 
             <!-- Main content -->
